@@ -1,0 +1,233 @@
+body {
+    background-image: url("/assets/images/dust_scratches.png");
+    margin: 0;
+}
+header {
+    background: white;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    z-index: 3;
+}
+nav {
+    padding: 0;
+    width: 960px;
+    margin: 0;
+    
+}
+#name {
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.1em;
+    text-align: center;
+    color: white;
+    float: left;
+    margin-left: 12.5%;
+    padding: 0;
+    height:50px;
+    
+}
+ul {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0%;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;  
+    height: 50px;
+    margin:0;  
+    box-shadow: 2px 2px #cccccc;
+}
+.navigation {
+    position: absolute;
+    right: 175px;
+}
+li {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    /*border-right: 1px solid #777777;*/    
+}
+li a {
+    color:#777777;
+    display: block;
+    text-align: left;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    color: gray;
+    font-size: 1.5em;
+}
+.main {
+    width: 960px;
+    margin: auto;
+    background-color: #ffffff;
+    margin-top: 7.5%;
+    margin-bottom:5%;
+    overflow: auto;  
+    border: 1px solid #dddddd;
+}
+h1 {
+    color: #4aaaa5;
+    padding: 20px;
+    
+}
+#line {
+    background-color: rgb(163, 162, 162);
+    height: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+section {
+    margin: 20px;
+}
+img {
+    padding-right: 10px;
+    float: left;
+}
+p {
+    text-indent: 10px;
+    color:#777777;
+}
+
+footer {
+    background-color: #666666;
+    text-align: center;
+    font-size: .75em;
+    margin-top: -13px;
+    height:45px;
+    color:#cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 10px solid #4aaaa5;
+    position: sticky;
+    top: 0;
+}
+form {
+    overflow: none;
+    width: 100%;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px
+}
+.container {
+        width: 700px;
+        margin: auto;
+        background-color: #ffffff;
+        margin-top: 7.5%;
+        margin-bottom:5%;
+        overflow: none;  
+        border: 1px solid #dddddd; 
+        color:#777777;
+}
+.gallery1 {
+    float: left;
+    width: 210px;
+    height: 210px;
+    z-index: -1;
+    margin-bottom: 25px;
+    
+}
+.gallery2 {
+    float: left;
+    margin-right: 300px;
+    width: 210px;
+    height: 210px;
+    z-index: -1;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+.gallery3{
+    float: left;
+    width: 210px;
+    height: 210px;
+    z-index: -1;
+    margin-bottom: 25px;
+}
+.gallery4{
+    float: left;
+    margin-right: 300px;
+    width: 210px;
+    height: 210px;
+    z-index: -1;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+.gallery5{
+    float: left;
+    width: 210px;
+    height: 210px;
+    z-index: -1;
+    margin-bottom: 25px;
+}
+.desc1 {
+    z-index: 2;
+    float: left;
+    text-align: Center;
+    position: relative;
+    background-color: #4aaaa5;
+    top: -45px;
+    width: 200px;
+    opacity: .95;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    font-size: 1em;
+    padding: 10px 0 10px 0;
+}
+.desc2 {
+    z-index: 2;
+    float: left;
+    text-align: Center;
+    position: relative;
+    background-color: #4aaaa5;
+    top: -45px;
+    width: 200px;
+    opacity: .95;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;  
+    font-size: 1em;
+    padding: 10px 0 10px 0;
+}
+.desc3 {
+    z-index: 2;
+    float: left;
+    text-align: Center;
+    position: relative;
+    background-color: #4aaaa5;
+    top: -45px;
+    width: 200px;
+    opacity: .95;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    font-size: 1em;
+    padding: 10px 0 10px 0;
+}
+.desc4 {
+    z-index: 2;
+    float: left;
+    text-align: Center;
+    position: relative;
+    background-color: #4aaaa5;
+    top: -45px;
+    width: 200px;
+    opacity: .95;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;  
+    font-size: 1em;
+    padding: 10px 0 10px 0;
+}
+.desc5 {
+    z-index: 2;
+    float: left;
+    text-align: Center;
+    position: relative;
+    background-color: #4aaaa5;
+    top: -45px;
+    width: 200px;
+    opacity: .95;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    font-size: 1em;
+    padding: 10px 0 10px 0;
+}
