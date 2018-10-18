@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Heather Drattlo Art</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/art.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <div class="links">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <a href="index.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Home</a>
+        <a href="gallery.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Photography</a>
+        <a href="portfolio.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Web</a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+        <div class="column">
+            <img src="assets/images/art/a0.jpg" style="width:50%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="assets/images/art/a2.jpg" style="width:50%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="assets/images/art/a3.jpg" style="width:50%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="assets/images/art/a4.jpg" style="width:50%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="assets/images/art/a5.jpg" style="width:50%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="assets/images/art/a6.jpg" style="width:50%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="assets/images/art/a7.jpg" style="width:50%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="assets/images/art/a8.jpg" style="width:50%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+        </div>
+    </div>
+    <div class="column">
+        <img src="assets/images/art/a1.jpg" style="width:50%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+    </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 9</div>
+                <img src="assets/images/art/a0.jpg" style="width:60%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 9</div>
+                <img src="assets/images/art/a2.jpg" style="width:80%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 9</div>
+                <img src="assets/images/art/a3.jpg" style="width:80%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 9</div>
+                <img src="assets/images/art/a4.jpg" style="width:50%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">5 / 9</div>
+                <img src="assets/images/art/a5.jpg" style="width:50%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">6 / 9</div>
+                <img src="assets/images/art/a6.jpg" style="width:50%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">7 / 9</div>
+                <img src="assets/images/art/a7.jpg" style="width:50%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">8 / 9</div>
+                <img src="assets/images/art/a8.jpg" style="width:50%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">8 / 9</div>
+                <img src="assets/images/art/a1.jpg" style="width:50%">
+            </div>
+
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+
+            <div class="column">
+                <img class="demo cursor" src="assets/images/art/a0.jpg" style="width:100%" onclick="currentSlide(1)"
+                    alt="'Brad'. Mixed Media">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="assets/images/art/a2.jpg" style="width:50%" onclick="currentSlide(2)" alt="'Round'. Charcole, Pencil">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="assets/images/art/a3.jpg" style="width:50%" onclick="currentSlide(3)" alt="Test logo for Mike Dodson Auto">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="assets/images/art/a4.jpg" style="width:50%" onclick="currentSlide(4)" alt="Recreation of Piet Mondrian's 'Composition with Yellow, Blue and Red'. Hole Punches.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="assets/images/art/a5.jpg" style="width:50%" onclick="currentSlide(5)" alt="'Kurt'. Gouache paint ">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="assets/images/art/a6.jpg" style="width:50%" onclick="currentSlide(6)" alt="'Flower'. Pencil">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="assets/images/art/a7.jpg" style="width:50%" onclick="currentSlide(7)" alt="'Robot Sketch'. Pen">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="assets/images/art/a8.jpg" style="width:50%" onclick="currentSlide(8)" alt="'Photographer'. Ink relief">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="assets/images/art/a1.jpg" style="width:50%" onclick="currentSlide(8)" alt="'Piggy Bank'. Chalk">
+            </div>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <br>&copy 2018 Heather Drattlo
+</footer>
+<canvas id="c"> </canvas>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+<script src="new.js"></script>
+<script src="art.js"></script>
+
+
+</html>
