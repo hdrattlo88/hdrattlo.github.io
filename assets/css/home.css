@@ -1,0 +1,117 @@
+.container {
+    background-color:black;
+    text-align: center;
+   
+}
+
+/* use this to determine full screen desktop view */
+img {
+    align-items: center;
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+.name {
+    font-family: 'Barrio', cursive;
+    color: rgb(243, 10, 126);
+    font-size: 7vw;
+    
+}
+.title{
+    font-family: 'Barrio', cursive;
+    color: rgb(243, 10, 126);
+    font-size: 6vw;
+    display: block;
+   
+}
+.buttons{
+   display: inline-block;
+   margin-bottom: 2%;
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 320px) { 
+    img{
+        margin-top: 10%;
+        width: 25%;
+        height: auto;
+        border-radius: 50%;
+       margin-left: 10%;
+       margin-bottom: 10%;
+     }
+     h1{
+        font-family: 'Barrio', cursive;
+        color: rgb(243, 10, 126);
+    }
+ }
+@media (min-width: 576px) { 
+    img{
+        margin-top: 10%;
+        width: 25%;
+        height: auto;
+        border-radius: 50%;
+       margin-left: 10%;
+       margin-bottom: 10%;
+     }
+     h1{
+        font-family: 'Barrio', cursive;
+        color: rgb(243, 10, 126);
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { 
+    img{
+        margin-top: 10%;
+        width: 25%;
+        height: auto;
+        border-radius: 50%;
+       margin-left: 10%;
+       margin-bottom: 10%;
+     }
+     h1{
+        font-family: 'Barrio', cursive;
+        color: rgb(243, 10, 126);
+    }
+ } */
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { 
+    img{
+        margin-top: 10%;
+        width: 25%;
+        height: auto;
+        border-radius: 50%;
+       margin-left: 10%;
+       margin-bottom: 10%;
+     }
+     h1{
+        font-family: 'Barrio', cursive;
+        color: rgb(243, 10, 126);
+    }
+ } */
+
+/* // Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { 
+    img{
+        margin-top: 10%;
+        width: 25%;
+        height: auto;
+        border-radius: 50%;
+       margin-left: 15%;
+       margin-bottom: 10%;
+     }
+     h1{
+        font-family: 'Barrio', cursive;
+         color: rgb(243, 10, 126);
+     }
+}  */
+
+/* this is where the bg stuff starts */
+
