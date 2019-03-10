@@ -1,39 +1,87 @@
+html{
+    height: 100%;
+    width: auto;
+    
+}
+body{
+    /* background: url("../images/monitor.png")center fixed;
+    background-size: 80% 100% ;
+    background-repeat: no-repeat;
+    background-position-y: 20px;*/
+    height: 100%;
+    width: auto; 
+}
+
 .container {
-    background-color:black;
+    /* background: url("../images/monitor.png")center;
+    background-size: 100% 100% ;
+    background-repeat: no-repeat; */
+    z-index: 1;
     text-align: center;
+    margin-top: 4%;
+    height: 100%;
+    position: center center absolute;
+    width:90%;
    
+    
+
 }
 
 /* use this to determine full screen desktop view */
-img {
+#profile {
     align-items: center;
-    width: 25%;
+    width: 30%;
     height: auto;
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     z-index: 1;
+    box-shadow: -0px 2px 25px 2px black;  
+  /* box shadow guide________ left/right, top/bottom, blur, spread */
+  
 }
 
 .name {
     font-family: 'Barrio', cursive;
     color: rgb(243, 10, 126);
-    font-size: 7vw;
-    
+    font-size:72px;
+    width: 100%;
+    text-shadow: 2px 1px black;
+   
+
 }
-.title{
+.email {
     font-family: 'Barrio', cursive;
     color: rgb(243, 10, 126);
-    font-size: 6vw;
-    display: block;
-   
+    font-size: 24px;
+    margin-top: -30px;
+  text-shadow: 1px 1px black;
+
 }
-.buttons{
-   display: inline-block;
-   margin-bottom: 2%;
+.title {
+    font-family: 'Barrio', cursive;
+    color: rgb(243, 10, 126);
+    font-size: 65px;
+    display: block;
+    text-shadow: 2px 1px black;
+
 }
 
+.buttons {
+    display: inline-block;
+    margin-bottom: 2%; 
+}
+.btn-outline-dark{
+margin:10px;
+box-shadow: 2px 1px 5px  black;
+}
+h4{
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* // Small devices (landscape phones, 576px and up) */
 /* @media (min-width: 320px) { 
@@ -112,6 +160,4 @@ img {
          color: rgb(243, 10, 126);
      }
 }  */
-
-/* this is where the bg stuff starts */
 
